@@ -63,6 +63,23 @@ section{
 .btn:hover{
     background:var(--yellow);
 }
+.btn1{
+    padding:.7rem 3rem;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn1 i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn1:hover{
+    background:var(--yellow);
+}
 
 .heading{
     text-align: center;
@@ -93,7 +110,7 @@ header{
 
 header .user img{
     height:25rem;
-    width:15rem;
+    width:25rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom:1rem;
@@ -368,6 +385,41 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+ .social{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 0px;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+  }
+ .social a{
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    line-height: 39px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #e4c239;
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    color: #fff;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+  }
+  .social a:hover{
+    opacity: 0.9;
+    box-shadow: 0px 1px 23px 5px rgba(182, 164, 32, 0.9);
+  }
+   .copyright{
+    color: #fff ;
+    text-align: center;
+    padding-top: 24px;
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 16px;
+  }
 
 
 
@@ -446,3 +498,11 @@ header .navbar ul li a:hover{
     }
 
  }
+
+ 
+@media (max-width: 767px) {
+
+    .social{
+      margin: 0 auto;
+    }
+}
