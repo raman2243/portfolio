@@ -380,7 +380,7 @@ header .navbar ul li a:hover{
 
 .top{
     position: fixed;
-    bottom:7.5rem; right: 2rem;
+    bottom:15rem; right: 3rem;
     z-index: 100;
     display: none;
 }
